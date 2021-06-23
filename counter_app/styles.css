@@ -19,6 +19,14 @@ button {
     background-color: green;
 }
 
+.dec-btn {
+    background-color: red;
+}
+
+.save-btn {
+    background-color: lightblue;
+}
+
 h1 {
     margin-top: 20px;
     margin-bottom: 10px;
@@ -34,8 +42,5 @@ h3 {
     border: 1px solid;
     border-radius: 10px;
     margin: 20px 10px 40px 10px;
-    /* background-image: url(58084_JCyber_RK_02.jpg);
-    background-size: cover;
-    background-repeat: no-repeat; */
     text-align: center; 
 }

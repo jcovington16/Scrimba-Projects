@@ -1,5 +1,6 @@
 let count = 0
 let countEl = document.getElementById("count-el")
+let saveEl = document.getElementById("save-el")
 
 function counter() {
     count += 1
@@ -12,5 +13,9 @@ function decrease() {
 }
 
 function save() {
+    let entries = count + " - "
+    saveEl.textContent += entries
+    countEl.innerText = 0
+    count = 0
 
 }
